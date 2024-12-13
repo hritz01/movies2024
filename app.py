@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 #genai.configure(api_key = os.getenv("GOOGLE-API-KEY"))
 
 # Design the Page
-st.title("Movie Recommendation System using Gemini-Pro")
+st.title("🎦 Movie Recommendation System using Gemini-Pro")
 user_input = st.text_input("Enter movie title, genre or keywords (e.g. Sci-FI Movie): ")
 
 # Prompt Template
